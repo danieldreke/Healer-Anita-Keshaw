@@ -53,6 +53,22 @@ img.photo {
   width: 300px;
   padding: 0px;
 }
+.aboutme {
+  max-width: 550px;
+}
+ul {
+  list-style: none;
+  line-height: 1.7;
+}
+ul li::before {
+  content: "\2022";
+  color: #b15fb3;
+  font-size: 26px;
+  margin-left: -17.5px;
+  margin-right: 8px;
+  vertical-align: text-bottom;
+  line-height: 18px;
+}
 </style>
 </head>
 <body>
@@ -65,7 +81,7 @@ img.photo {
   <div class="w3-xxlarge">About Me</div><br>  
   <div class="w3-large">
     <img class="photo w3-card" src="me.jpg" alt="Healer Anita Keshaw"><br><br>
-    <ul>
+    <ul class="aboutme">
       <li>PhD/Doctor in Human Psychology and Behavioural Science</li>
       <li><a href="https://en.wikipedia.org/wiki/IBM">IBM</a> HR Top Manager of 50.000 employees for last seven years</li>
       <li>Full time life coach since January 2020</li>
